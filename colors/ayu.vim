@@ -195,22 +195,38 @@ exe "hi! CursorLineConceal" .s:fg_guide   .s:bg_line        .s:fmt_none
 " Terminal
 " ---------
 if has("nvim")
-  let g:terminal_color_0 =  s:palette.bg[s:style]
-  let g:terminal_color_1 =  s:palette.markup[s:style]
-  let g:terminal_color_2 =  s:palette.string[s:style]
-  let g:terminal_color_3 =  s:palette.accent[s:style]
-  let g:terminal_color_4 =  s:palette.tag[s:style]
-  let g:terminal_color_5 =  s:palette.constant[s:style]
-  let g:terminal_color_6 =  s:palette.regexp[s:style]
-  let g:terminal_color_7 =  "#FFFFFF"
-  let g:terminal_color_8 =  s:palette.fg_idle[s:style]
-  let g:terminal_color_9 =  s:palette.error[s:style]
-  let g:terminal_color_10 = s:palette.string[s:style]
-  let g:terminal_color_11 = s:palette.accent[s:style]
-  let g:terminal_color_12 = s:palette.tag[s:style]
-  let g:terminal_color_13 = s:palette.constant[s:style]
-  let g:terminal_color_14 = s:palette.regexp[s:style]
-  let g:terminal_color_15 = s:palette.comment[s:style]
+  let g:terminal_color_0 = "#d8d7d7"
+  let g:terminal_color_1 = "#d26487"
+  let g:terminal_color_2 = "#9bca58"
+  let g:terminal_color_3 = "#f29718"
+  let g:terminal_color_4 = "#36a3d9"
+  let g:terminal_color_5 = "#D4BFFF"
+  let g:terminal_color_6 = "#2b9e78"
+  let g:terminal_color_7 = "#c2c2c2"
+  let g:terminal_color_8 = "#9ea9b8"
+  let g:terminal_color_9 = "#F07178"
+  let g:terminal_color_10 = "#c2e98d"
+  let g:terminal_color_11 = "#f1bf79"
+  let g:terminal_color_12 = "#90c2dd"
+  let g:terminal_color_13 = "#dfd3f8"
+  let g:terminal_color_14 = "#95e6cb"
+  let g:terminal_color_15 = "#abb0b6"
+  "let g:terminal_color_0 =  s:palette.bg[s:style]
+  "let g:terminal_color_1 =  s:palette.markup[s:style]
+  "let g:terminal_color_2 =  s:palette.string[s:style]
+  "let g:terminal_color_3 =  s:palette.accent[s:style]
+  "let g:terminal_color_4 =  s:palette.tag[s:style]
+  "let g:terminal_color_5 =  s:palette.constant[s:style]
+  "let g:terminal_color_6 =  s:palette.regexp[s:style]
+  "let g:terminal_color_7 =  "#FFFFFF"
+  "let g:terminal_color_8 =  s:palette.fg_idle[s:style]
+  "let g:terminal_color_9 =  s:palette.error[s:style]
+  "let g:terminal_color_10 = s:palette.string[s:style]
+  "let g:terminal_color_11 = s:palette.accent[s:style]
+  "let g:terminal_color_12 = s:palette.tag[s:style]
+  "let g:terminal_color_13 = s:palette.constant[s:style]
+  "let g:terminal_color_14 = s:palette.regexp[s:style]
+  "let g:terminal_color_15 = s:palette.comment[s:style]
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = s:palette.fg[s:style]
 else
